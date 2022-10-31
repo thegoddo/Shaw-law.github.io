@@ -1,2 +1,6 @@
 # Shaw-law.github.io
-This project is copied from kelly chen's codepen. I am beginner so I want to customize and learn from it.
+
+This project is my attemp at front end development with holy trinity of HTML, CSS, JS. This page is under construction.
+
+
+Launch this page using Shaw-law.github.io
