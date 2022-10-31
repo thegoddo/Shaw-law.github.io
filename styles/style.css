@@ -1,13 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  color: #283618;
 }
 
 #abc {
   width: 100%;
-  height: 100vh;
+  height: 50px;
   background-color: #fefae0;
-  background-size: cover;
 }
 
 nav {
@@ -28,7 +28,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-  background-color: #dda15e;
+  background-color: #bc6c25;
 }
 
 nav ul li a {
@@ -36,4 +36,30 @@ nav ul li a {
   font-weight: bolder;
   color: #283618;
   padding: 30px;
+}
+
+.container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url("../images/satanya.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.about {
+  text-align: center;
+}
+.about .name {
+  font-size: 2.5em;
 }
